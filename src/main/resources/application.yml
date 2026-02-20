@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/plannerdb
     username: postgres
-    password: tom4wolf
+    password: 
 
   jpa:
     hibernate:
