@@ -34,8 +34,7 @@ public class PlannerController {
     }
 
     @PutMapping("/{id}")
-    public Planner update(@PathVariable Long id,
-                       @RequestBody Planner task) {
+    public Planner update(@PathVariable Long id, @RequestBody Planner task) {
         return service.updateTask(id, task);
     }
 
